@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    background-color: grey;
+    padding-top: 10px;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        color: white;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+
+        ul {
+            display: flex;
+            padding: 0;
+            gap: 10px;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+#principal {
+    margin-left: 50px;
+    margin-right: 50px;
+    .displaySecoes {
+        display: flex;
+        gap: 50px;
+    }
+}
+
+#rodape {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.alignRight {
+    margin-left: 60px;
+}
+
+.secao {
+    margin-bottom: 100px;
+
+    p {
+        text-align: justify;
+    }
+}
